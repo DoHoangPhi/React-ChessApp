@@ -1,17 +1,32 @@
-.square {
+.tile {
   display: grid;
   place-content: center;
   width: 100px;
   height: 100px;
 }
 
-.bsquare {
+.black-tile {
   background-color: #779556;
 }
-.wsquare {
+
+.white-tile {
   background-color: #ebecd0;
 }
 
-.square .chess-piece-image{
-    width: 80px;
+.tile .img {
+  width: 80px;
+}
+.tile .chess-piece:hover{
+  cursor: grab;
+}
+.tile .chess-piece:active{
+  cursor: grabbing;
+}
+
+.tile .chess-piece {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px;
 }
