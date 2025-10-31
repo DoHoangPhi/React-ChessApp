@@ -1,0 +1,17 @@
+.square {
+  display: grid;
+  place-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.bsquare {
+  background-color: #779556;
+}
+.wsquare {
+  background-color: #ebecd0;
+}
+
+.square .chess-piece-image{
+    width: 80px;
+}
